@@ -39,7 +39,12 @@ justify-content: center;
 align-items: center;
 text-align: center;
 }
+.destination:hover h2 {
+transform: rotate(0deg);
+}
+      أضيفوا `transition: transform 0.5s;` إلى مجموعة القواعد `h2` فتصبح الآن:
 
+      ```css
 h2 {
 margin: 0;
 transform: rotate(-45deg);
